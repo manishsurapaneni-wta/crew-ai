@@ -28,7 +28,6 @@ delete_row = supabase_delete_row_tool()
 update_row = supabase_update_row_tool()
 
 # rename k to api_key
-llm = LLM(model="gpt-4o", temperature=0, k="sk-111")
 
 # Create an agent with supabase tools
 agent = Agent(
